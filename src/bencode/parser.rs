@@ -1,4 +1,4 @@
-use bencode::code_type::*;
+use super::code_type::*;
 
 // BenCodeのパーサー
 pub trait BenCodeParser {

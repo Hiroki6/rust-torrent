@@ -9,7 +9,6 @@ pub struct BenCode {
 
 impl BenCode {
   pub fn new(parameter: &[u8]) -> BenCode {
-      //BenCode{ value: parameter.iter().map(|&s| s as char).collect::<String>()}
       BenCode{ value: String::from(str::from_utf8(parameter).unwrap()) }
   }
 
